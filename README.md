@@ -57,29 +57,55 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+# 🛒 E-Commerce Platform
 
-## Resources
+![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-%23FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-black?style=for-the-badge&logo=socket.io&logoColor=white)
 
-Check out a few resources that may come in handy when working with NestJS:
+A fully functional **E-Commerce Platform** built with **NestJS** using **Clean Architecture** principles. The platform is designed to be scalable, robust, and ready for production with features like user authentication, role-based access control, real-time notifications, and CI/CD integration.
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+## ✨ Features
 
-## Support
+- **Clean Architecture**: Separation of concerns using CQRS (Command Query Responsibility Segregation).
+- **JWT Authentication & Authorization**: Secure user login and role-based access control.
+- **AWS S3 Integration**: Efficient image storage and retrieval.
+- **MongoDB Database**: Flexible and scalable NoSQL database.
+- **RabbitMQ**: Queue system for sending emails asynchronously.
+- **Socket.IO**: Real-time notifications for a seamless user experience.
+- **Dockerized**: Easily deployable using Docker containers.
+- **CI/CD with AWS CodePipeline**: Continuous integration and delivery using AWS Elastic Beanstalk.
+- **Fully Typed with TypeScript**: Ensuring code reliability and maintainability.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## 🛠️ Tech Stack
 
-## Stay in touch
+- **Backend Framework**: NestJS
+- **Authentication**: Passport & JWT
+- **Database**: MongoDB (Mongoose)
+- **Message Broker**: RabbitMQ
+- **Real-time Communication**: Socket.IO
+- **Cloud Storage**: AWS S3
+- **Deployment**: AWS Elastic Beanstalk
+- **CI/CD**: AWS CodePipeline
+- **Containerization**: Docker
+- **Languages**: TypeScript
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## 🚀 Getting Started
 
-## License
+### Prerequisites
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+- **Node.js** (v18.x.x and above)
+- **Docker** (for containerization)
+- **AWS CLI** (for deployment)
+- **MongoDB** (local or cloud instance)
+- **RabbitMQ** (local or cloud instance)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/e-commerce-platform.git
+cd e-commerce-platform
+
